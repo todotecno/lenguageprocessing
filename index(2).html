@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Language Processing · from idea to sound to meaning</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Oswald:wght@600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="bar"></div><div id="cur"></div>
+<nav><b class="D">LP</b><div><a href="#speaker">Speaker</a><a href="#hearer">Hearer</a><a href="#brain">Brain</a><a href="#sources">Sources</a></div></nav>
+
+<header class="hero dark" id="top">
+<h1 class="D" aria-label="Language Processing"><span class="ln" data-split>Language</span><span class="ln" data-split>Processing</span></h1>
+<div class="hrow">
+<p>How we turn an idea into a sentence, and a sound back into meaning. The companion site to our biolinguistics poster.</p>
+<div><div class="rail" id="rail" aria-hidden="true"></div><div class="stage" id="stage"></div></div>
+</div>
+<div class="mq" aria-hidden="true"><div class="D" id="mq"></div></div>
+</header>
+
+<section class="sec mint" id="speaker">
+<h2 class="D big rv sm"><span class="no" style="color:var(--forest)">01</span> The speaker’s speaking process</h2>
+<p class="lead rv">Five steps take an idea from inside the speaker’s mind to a sentence ready to be said.</p>
+<div class="st" id="sp"></div>
+</section>
+<section class="sec dark" id="hearer">
+<h2 class="D big rv sm"><span class="no">02</span> The listener’s hearing process</h2>
+<p class="lead rv">Listening runs the same pipeline in reverse: from sound back to the speaker’s intention.</p>
+<div class="st" id="lp"></div>
+</section>
+<section class="sec paper" id="brain">
+<h2 class="D big rv sm"><span class="no">03</span> Does the brain produce and comprehend language in different sectors?</h2>
+<p class="lead rv">No. Even though traditional models like the WLG got to this conclusion, new findings suggest otherwise. Hagoort and Indefrey (2014) identified two main processes:</p>
+<div class="two">
+<div class="df rv" style="display:block"><h3 class="D">Syntactic processing</h3><p>Understanding grammatical structure and how words relate to each other.</p></div>
+<div class="df rv" style="display:block"><h3 class="D">Semantic processing</h3><p>Understanding the meaning of words and sentences.</p></div>
+</div>
+<p class="lead rv" style="margin-top:56px"><b>They highlight three important developments:</b></p>
+<div class="st" id="dv" style="margin-top:24px"></div>
+<h3 class="D rv" style="font-size:clamp(32px,4.6vw,72px);margin:clamp(64px,9vw,130px) 0 0">Language unification in the brain</h3>
+<div class="zones">
+<button class="zone" data-k="44"><span>Syntactic · dorsal (upper) regions</span><b class="D">BA 44</b></button>
+<button class="zone" data-k="45"><span>Both · middle</span><b class="D">BA 45</b></button>
+<button class="zone" data-k="47"><span>Semantic · ventral (lower) regions</span><b class="D">BA 47</b></button>
+</div>
+<p id="bn">Hover a zone: syntactic processing (grammar and sentence structure) sits in Broca’s area, BA 44; semantic processing (meaning of words and sentences) in BA 45 and BA 47.</p>
+<p>Also observed in the left posterior temporal cortex: a similar dorsal (syntactic) vs. ventral (semantic) distinction.</p>
+</section>
+<section class="sec mint" id="slips">
+<h2 class="D big rv sm"><span class="no" style="color:var(--forest)">04</span> Slips of the tongue</h2>
+<p class="lead rv">Speech errors are never random, which is how we know the speaker’s steps are real. Hover or tap a slip to see what was meant.</p>
+<div style="margin-top:56px" id="errs"></div>
+</section>
+<section class="sec dark" id="garden">
+<h2 class="D big rv"><span class="no">05</span> The parser guesses early</h2>
+<p class="lead rv">Listeners build structure word by word and commit fast. When the guess is wrong, the sentence becomes a garden path. Step through two classic ones.</p>
+<div class="pg rv">
+<div class="tabs" id="tabs"></div>
+<div class="sent D" id="sent"></div>
+<div class="note" id="note">Press the button to hear the first word.</div>
+<div class="fix" id="fix"></div>
+<div class="tabs" style="margin-top:28px"><button id="nx">Next word →</button><button id="rs">Replay</button></div>
+</div>
+</section>
+
+<section class="sec paper" id="vocab">
+<h2 class="D big rv sm"><span class="no">06</span> Specific vocabulary</h2>
+<div class="defs">
+<div class="df rv"><h3 class="D">Lexicon</h3><p>The mental dictionary stored in our brain, including information about its meaning, pronunciation, and grammatical properties.</p></div>
+<div class="df rv"><h3 class="D">Morphemes</h3><p>The smallest meaningful units of language. They can be complete or parts of words that add meaning or information.</p></div>
+<div class="df rv"><h3 class="D">Phonemes</h3><p>The smallest distinctive sound units in a language. They are abstract mental representations of sounds that can distinguish one word from another.</p></div>
+<div class="df rv"><h3 class="D">Utterance</h3><p>A piece of language produced by a speaker in a particular context. Its meaning can depend on the situation in which it is produced.</p></div>
+</div>
+</section>
+<section class="sec dark" id="sources">
+<h2 class="D big rv"><span class="no">07</span> More information and sources</h2>
+<p class="grp D">The papers</p>
+<a class="lk" href="https://doi.org/10.1146/annurev-neuro-071013-013847" target="_blank" rel="noopener"><div><b class="D">The Neurobiology of Language Beyond Single Words</b><small>Hagoort &amp; Indefrey (2014), Annual Review of Neuroscience 37:347–362</small></div><span>↗</span></a>
+<a class="lk" href="https://search.worldcat.org/search?q=isbn%3A9781405191524" target="_blank" rel="noopener"><div><b class="D">Fundamentals of Psycholinguistics</b><small>Fernández &amp; Cairns (2010), Wiley-Blackwell. Chapters 5 and 7</small></div><span>↗</span></a>
+<p class="grp D">Go further</p>
+<a class="lk" href="https://en.wikipedia.org/wiki/Garden-path_sentence" target="_blank" rel="noopener"><div><b class="D">Garden-path sentences</b><small>More examples and the main parsing models</small></div><span>↗</span></a>
+<a class="lk" href="https://en.wikipedia.org/wiki/Speech_error" target="_blank" rel="noopener"><div><b class="D">Speech errors</b><small>Spoonerisms, exchanges and what they reveal</small></div><span>↗</span></a>
+<a class="lk" href="https://en.wikipedia.org/wiki/Wernicke%E2%80%93Geschwind_model" target="_blank" rel="noopener"><div><b class="D">The Wernicke–Geschwind model</b><small>The classic model the poster argues against</small></div><span>↗</span></a>
+<a class="lk" href="https://www.mpi.nl/" target="_blank" rel="noopener"><div><b class="D">Max Planck Institute for Psycholinguistics</b><small>Where Hagoort and Indefrey work</small></div><span>↗</span></a>
+</section>
+
+<footer class="dark">
+<h2 class="D">Language Processing</h2>
+<p>Made by: Mariano Villares, Juana Ungo, Juan Martin Lozano, Agustin Llerena and Juan Patricio Gilligan. Based on Fernández &amp; Cairns (2010), chapters 5 and 7, and Hagoort &amp; Indefrey (2014).</p>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
